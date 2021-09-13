@@ -4,12 +4,12 @@ Build bitnami redis docker image on arm64
 ## TODO
 
 - [x] bitnami/redis: https://github.com/bitnami/bitnami-docker-redis
-- [ ] bitnami/redis-sentinel: https://github.com/bitnami/bitnami-docker-redis-sentinel
-- [ ] bitnami/redis-sentinel-exporter: already deleted
-- [ ] bitnami/redis-cluster: https://github.com/bitnami/bitnami-docker-redis-cluster
+- [x] bitnami/redis-sentinel: https://github.com/bitnami/bitnami-docker-redis-sentinel
+- [x] bitnami/redis-sentinel-exporter: already deleted
+- [x] bitnami/redis-cluster: https://github.com/bitnami/bitnami-docker-redis-cluster
 - [x] bitnami/redis-exporter: https://github.com/bitnami/bitnami-docker-redis-exporter
-- [ ] bitnami/bitnami-shell: https://github.com/bitnami/bitnami-docker-bitnami-shell
-- [ ] support multi version
+- [x] bitnami/bitnami-shell: https://github.com/bitnami/bitnami-docker-bitnami-shell
+
 
 ## 1. 基础镜像
 
