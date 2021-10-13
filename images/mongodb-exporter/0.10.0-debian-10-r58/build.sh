@@ -9,7 +9,7 @@ now_dir=$PWD
 
 cd ../../../components/mongodb-exporter/0.10.0
 bash ./build.sh
-cp output/mongodb-exporter-0.10.0-0-linux-amd64-debian-10.tar.gz $now_dir/output/
+cp output/mongodb-exporter-0.10.0-0-linux-arm64-debian-10.tar.gz $now_dir/output/
 
 cd $now_dir
 
