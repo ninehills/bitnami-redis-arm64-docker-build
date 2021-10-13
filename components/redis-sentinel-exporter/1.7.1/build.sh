@@ -20,7 +20,7 @@ chmod a+x redis_sentinel_exporter_arm64
 wget "${BITNAMI_DOWNLOAD_URL}/${BITNAMI_PACKAGE}.tar.gz" -O ${BITNAMI_PACKAGE}.tar.gz
 tar zxf ${BITNAMI_PACKAGE}.tar.gz
 
-cp redis_sentinel_exporter_arm64 ${BITNAMI_PACKAGE}/files/${COMPONENT}/bin
+cp redis_sentinel_exporter_arm64 ${BITNAMI_PACKAGE}/files/${COMPONENT}/bin/redis_sentinel_exporter
 
 mv ${BITNAMI_PACKAGE} ${ARM64_PACKAGE}
 tar zcvf ${ARM64_PACKAGE}.tar.gz ${ARM64_PACKAGE}
